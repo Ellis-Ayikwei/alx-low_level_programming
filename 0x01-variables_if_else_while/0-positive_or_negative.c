@@ -30,7 +30,7 @@ int main(void)
 	else
 		/* the number is 0:*/
 	{
-		printf("%d is negative\n", n);
+		printf("%d is zero\n", n);
 	}
 	return (0);
 }
