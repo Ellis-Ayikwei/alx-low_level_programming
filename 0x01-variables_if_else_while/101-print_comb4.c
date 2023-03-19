@@ -21,17 +21,15 @@ int main(void)
 	{
 		for (logan = letas + 1 ; logan <= 8 ; logan++)
 		{
-			for (moda = logan + 1 ; moda <=9 ; moda++)
+			for (moda = logan + 1 ; moda <= 9 ; moda++)
 			{
-		
-			
 				if (letas != logan)
 				{
 					putchar('0' + letas);
 					putchar('0' + logan);
 					putchar('0' + moda);
-				}	
-				if (letas <= 6 && logan <= 8 && moda <=9)
+				}
+				if (letas <= 6 && logan <= 8 && moda <= 9)
 				{
 					putchar(',');
 					putchar(' ');
