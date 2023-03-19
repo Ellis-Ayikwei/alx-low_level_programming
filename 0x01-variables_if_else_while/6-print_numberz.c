@@ -10,7 +10,7 @@
 
 int main(void)
 	{
-	char letas;
+	int letas;
 
 	for (letas = 1 ; letas <= 10 ; letas++)
 	{
