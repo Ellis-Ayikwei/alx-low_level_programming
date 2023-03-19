@@ -11,11 +11,12 @@
 int main(void)
 	{
 	int letas;
+
 	letas = 0;
+
 
 	while (letas <= 9)
 	{
-		
 		putchar(48 + letas);
 		if (letas < 9)
 		{
