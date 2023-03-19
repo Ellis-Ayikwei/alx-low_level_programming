@@ -17,6 +17,11 @@ int main(void)
 	{
 		putchar(letas);
 	}
+
+	for (alphas = 'A' ;alphas <= 'Z' ; alphas++)
+        {
+                putchar(alphas);
+        }
 	putchar('\n');
 	return (0);
 }
