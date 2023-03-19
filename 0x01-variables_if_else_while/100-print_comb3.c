@@ -25,7 +25,7 @@ int main(void)
 				putchar('0' + letas);
 				putchar('0' + logan);
 			}
-			if(letas <=8 && logan <=9)
+			if(letas <=7 && logan <=9)
 			{
 				putchar(',');
 				putchar(' ');
