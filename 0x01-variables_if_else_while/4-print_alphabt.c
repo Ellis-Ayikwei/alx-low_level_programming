@@ -14,7 +14,7 @@ int main(void)
 
 	for (letas = 'a' ; letas <= 'z' ; letas++)
 	{
-		if (letas != 'e' || letas != 'q')
+		if (letas != 'e' && letas != 'q')
 		{
 			putchar(letas);
 		}
