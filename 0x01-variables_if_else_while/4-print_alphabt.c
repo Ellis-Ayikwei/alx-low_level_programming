@@ -10,12 +10,14 @@
 
 int main(void)
 	{
-	int letas;
+	char letas;
 
-	while (letas < 9)
+	for (letas = 'a' ; letas <= 'z' ; letas++)
 	{
-		putchar(48 + letas)
-		putchar(',')
+		if (letas != 'e' && letas != 'q')
+		{
+			putchar(letas);
+		}
 	}
 		putchar('\n');
 	return (0);
