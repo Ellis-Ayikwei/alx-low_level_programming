@@ -6,7 +6,9 @@
  */
 int main(void)
 {
-    	const char *me="and that piece of art is usefull\" - Dora Korpar, 2015-10-19\n";
+	me = "and that piece of art is usefull\" - Dora Korpar, 2014-10-19\n";
+	const char *me;
+
 	write(STDERR_FILENO, me, 59);
 	return (1);
 }
