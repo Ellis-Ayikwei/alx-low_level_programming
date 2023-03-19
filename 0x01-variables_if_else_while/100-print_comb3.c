@@ -10,33 +10,27 @@
 
 int main(void)
 	{
-	int letas, logan, moda;
+	int letas, logan;
 
 	letas = 0;
 	logan = 0;
-	moda = 0;
 
 
-	for (letas = 0 ; letas <= 7 ; letas++)
+	for (letas = 0 ; letas <= 8 ; letas++)
 	{
-		for (logan = letas + 1 ; logan <= 8 ; logan++)
+		for (logan = letas + 1 ; logan <= 9 ; logan++)
 		{
-			for (moda = logan + 1 ; moda <=9 ; moda++)
+			if (letas != logan)
 			{
-		
-			
-				if (letas != logan)
-				{
-					putchar('0' + letas);
-					putchar('0' + logan);
-					putchar('0' + moda);
-				}	
-				if (letas <= 6 && logan <= 8 && moda <=9)
-				{
-					putchar(',');
-					putchar(' ');
-				}
+				putchar('0' + letas);
+				putchar('0' + logan);
 			}
+			if (letas <= 7 && logan <= 9)
+			{
+				putchar(',');
+				putchar(' ');
+			}
+
 		}
 	}
 		putchar('\n');
