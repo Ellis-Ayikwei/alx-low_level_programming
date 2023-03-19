@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 /* more headers goes there */
 
 
@@ -12,10 +12,10 @@ int main(void)
 	{
 	unsigned int letas;
 
-	while(letas< 10)
+	while (letas <= 10)
 	{
 		putchar(48 + letas);
-		letas+=1;
+		letas += 1;
 	}
 		putchar('\n');
 	return (0);
