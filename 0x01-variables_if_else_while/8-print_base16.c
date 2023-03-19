@@ -10,11 +10,16 @@
 
 int main(void)
 	{
-	char letas;
+	char letas, alphas;
 
-	for (letas = 'z' ; letas >= 'a' ; letas--)
+	for (letas = '0' ; letas <= '9' ; letas++)
 	{
-	putchar(letas);
+		putchar(letas);
+	}
+
+	for (alphas = 'a' ; alphas <= 'f' ; alphas++)
+	{
+		putchar(alphas);
 	}
 		putchar('\n');
 	return (0);
