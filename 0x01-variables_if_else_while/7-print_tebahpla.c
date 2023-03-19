@@ -14,10 +14,7 @@ int main(void)
 
 	for (letas = 'z' ; letas >= 'a' ; letas--)
 	{
-		if (letas != 'e' && letas != 'q')
-		{
-			putchar(letas);
-		}
+	putchar(letas);
 	}
 		putchar('\n');
 	return (0);
