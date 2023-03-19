@@ -10,11 +10,12 @@
 
 int main(void)
 	{
-	int letas;
+	unsigned int letas;
 
-	for (letas = 0 ; letas <= 10 ; letas++)
+	while(letas<=10)
 	{
-		putchar(letas + '0');
+		putchar(letas);
+		letas+=1;
 	}
 		putchar('\n');
 	return (0);
