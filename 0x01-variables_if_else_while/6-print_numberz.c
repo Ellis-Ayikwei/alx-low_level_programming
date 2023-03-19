@@ -12,9 +12,9 @@ int main(void)
 	{
 	unsigned int letas;
 
-	while(letas<=10)
+	while(letas<= 10)
 	{
-		putchar(letas);
+		putchar(48 + letas);
 		letas+=1;
 	}
 		putchar('\n');
