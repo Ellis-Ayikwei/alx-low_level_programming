@@ -14,7 +14,7 @@ int main(void)
 
 	for (letas = 'a' ; letas <= 'z' ; letas++)
 	{
-		putchar(letas)'\n';
-	}
+		putchar(letas);
+	}putchar('\n');
 	return (0);
 }
