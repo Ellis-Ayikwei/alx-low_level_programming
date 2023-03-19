@@ -14,7 +14,7 @@ int main(void)
 
 	for (letas = 1 ; letas <= 10 ; letas++)
 	{
-		putchar(letas);
+		putchar(letas + '0');
 	}
 		putchar('\n');
 	return (0);
