@@ -12,7 +12,7 @@ int main(void)
 	{
 	int letas;
 
-	for (letas = 0 ; letas <= 10 ; letas++)
+	for (letas = 0 ; letas < 10 ; letas++)
 	{
 		printf("%d", letas);
 	}
