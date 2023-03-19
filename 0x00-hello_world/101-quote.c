@@ -1,14 +1,16 @@
 #include <unistd.h>
+#include <stdio.h>
 
 /**
- * main - Entry point
- * Return: Always 1 (Success)
+ * main - Prints "and that piece of art is useful" - Dora Korpar, 2015-10-19",
+ *                followed by a new line, to standard error.
+ *
+ * Return: Always 1.
  */
 int main(void)
 {
-	me = "and that piece of art is usefull\" - Dora Korpar, 2014-10-19\n";
-	const char *me;
-
-	write(STDERR_FILENO, me, 59);
+	write(2,
+	     "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",
+	      59);
 	return (1);
 }
