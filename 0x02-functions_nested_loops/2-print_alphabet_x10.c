@@ -3,15 +3,14 @@
  * print_alphabet_x10 -  this function prints the
 * alphabet in lowercase 10 times , followed by a new line.
 */
-void print_alphabet_x10(void)
+int _islower(int c)
 {
-	int i = 0;
-	char letter;
-
-	for (i = 0 ; i < 10 ; i++)
+	if (c >= 'a' && c <= 'z' )
 	{
-		for (letter = 'a'; letter <= 'z'; letter++)
-			_putchar(letter);
-		_putchar('\n');
+		return (1);
+	}
+	else
+	{
+		return (0);
 	}
 }
