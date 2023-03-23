@@ -12,11 +12,11 @@ int  print_sign(int n)
 {
 	if (n > 0)
 	{
-		return (43);
+		_putchar (43);
 	}
 	else if (n < 0)
 	{
-		return (45);
+		_putchar (45);
 	}
 	else
 	{
