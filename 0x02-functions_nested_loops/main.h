@@ -7,4 +7,5 @@ void print_alphabet_x10();
 int _islower();
 int _isalpha();
 int _abs();
+int  print_sign();
 #endif /* MAIN_H */
