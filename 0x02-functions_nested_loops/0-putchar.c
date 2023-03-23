@@ -4,7 +4,6 @@
  *
  * Return: Always 0.
  */
-char _putchar(void);
 int main(void)
 {
 	_putchar(95);
