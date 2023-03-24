@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * void more_numbers(void) - this prints all numbers from 0 to 14c
+ * more_numbers - this prints all numbers from 0 to 14c
  * ten times.
  * Return: 1 if character is lowercase, 0 otherwise.
  */
@@ -20,7 +20,6 @@ void more_numbers(void)
 				_putchar((i / 10) + '0');
 			}
 			_putchar((i % 10) + '0');
-			
 		}
 	_putchar('\n');
 	}

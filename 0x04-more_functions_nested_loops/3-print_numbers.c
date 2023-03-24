@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * mul - taking in to numbers and multiplies them .
+ * print_numbers - this prints numbers for o to 9
  * Return: 1 if character is lowercase, 0 otherwise.
  */
 
