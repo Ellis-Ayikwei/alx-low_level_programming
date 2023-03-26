@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	long a = 612852475143,;
+	long a = 612852475143;
 	long b;
 
 	while (b < (a / 2))
@@ -26,7 +26,7 @@ int main(void)
 		}
 	}
 
-	printf("%ld\n", prime);
+	printf("%ld\n", a);
 
 	return (0);
 }
