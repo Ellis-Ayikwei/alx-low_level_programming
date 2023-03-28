@@ -2,7 +2,8 @@
 #include<stdio.h>
 /**
  * reset_to_98 - changes agive number to 98
- *by taking the urinary of the input and then
+ *@n: the value thats stores the address location of the input
+*by taking the urinary of the input and then
 *pointing to its value
  * Return: Always 0.
  */
