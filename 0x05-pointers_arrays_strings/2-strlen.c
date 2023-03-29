@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+#include <string.h>
 /**
  * void swap_int - swapes the inputs of a given numbers 
  *@a: the  value to be checked 
@@ -8,8 +10,13 @@
  * Return: Always 0.
  */
 int _strlen(char *s)
-{
-	int a;
-	a = sizeof(*s);
-	
+{	
+	int i, b;
+
+	b=0;
+	for(i = 0 ; s[i] != '\0' ; i++)
+	{
+	b +=1;
+	}
+	return(b);
 }
