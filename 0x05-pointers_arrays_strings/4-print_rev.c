@@ -12,11 +12,11 @@ void print_rev(char *s)
 	b = 0;
 	for (i = 0  ; s[i] != '\0' ; i++)
 	{
-		b += 1;
+		b += 1; /*this is the length of the string*/
 	}
 	for (j = b  ; j >= 0 ; j--)
 	{
-		if  (s[j] <= b)
+		if  (s[j] >= 0)
 		{
 			_putchar(s[j]);
 		}
