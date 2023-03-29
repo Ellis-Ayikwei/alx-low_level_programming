@@ -16,7 +16,7 @@ void print_rev(char *s)
 	}
 	for (j = b  ; j >= 0 ; j--)
 	{
-		if  (s[j] != '\0')
+		if  (s[j] != b)
 		{
 			_putchar(s[j]);
 		}
