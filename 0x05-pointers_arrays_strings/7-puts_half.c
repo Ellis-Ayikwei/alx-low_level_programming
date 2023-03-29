@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-*void puts_half - checks a character and reverses it
-*@s: is the value tobe checked and reversed
+*puts_half - checks a character and reverses it
+*@str: is the value tobe checked and reversed
 *return: Always 0.
 */
 void puts_half(char *str)
@@ -14,9 +14,9 @@ void puts_half(char *str)
 		b += 1;
 	}
 
-	n = ((b -1)/2);
+	n = ((b - 1) / 2);
 
-	if (b % 2 ==1)
+	if (b % 2 == 1)
 	{
 		for (j = n  ; j  <= b ; j++)
 		{
@@ -25,11 +25,11 @@ void puts_half(char *str)
 				_putchar(str[j]);
 			}
 		}
-	}else 
+	} else
 	{
 		for (j = b / 2 ; j <= b ; j++)
 		{
-			if(str[j] !='\0')
+			if (str[j] != '\0')
 			{
 			_putchar(str[j]);
 			}
