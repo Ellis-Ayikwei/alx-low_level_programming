@@ -28,5 +28,6 @@ void print_to_98();
 /*0x05-pointers_arrays_strings*/
 void swap_int(int *a, int *b);
 void reset_to_98(int *n);
+void _puts(char *str);
 int _strlen(char *s);
 #endif /* MAIN_H */
