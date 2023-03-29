@@ -7,11 +7,17 @@
 */
 void puts2(char *s)
 {
-	int i;
+	int i, b, j;
 
-	for (i = 0  ; s[i] != '\0' ; i += 2)
-	{
-		printf("%c", s[i]);
+	b = 0;
+
+	for (i = 0  ; s[i] != '\0' ; i++)
+	{ 
+		b += 1;
+		 for (j = 0 ; j <= b ; j +=2)
+		{ 
+			printf("%c", s[i]);
+		}
 	}
 	printf("\n");
 }
