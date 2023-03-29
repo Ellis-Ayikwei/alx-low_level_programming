@@ -7,10 +7,10 @@
 *pointing to its value
  * Return: Always 0.
  */
-int _strlen(char *s)
+void swap_int(int *a, int *b)
 {
-	
-	int a = sizeof(*s);
-
-	return(0);	
+	int u ;
+	u = *a ;
+	*a = *b ;
+	*b = u ;	
 }
