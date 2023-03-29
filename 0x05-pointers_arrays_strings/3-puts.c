@@ -4,7 +4,7 @@
 *@str: is the value tobe checked and out putted
 *return: Always 0.
 */
-void _puts(char *str)
+ void _puts(char *str)
 {
 	int i;
 
