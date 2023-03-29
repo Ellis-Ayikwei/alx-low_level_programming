@@ -14,7 +14,6 @@ void print_rev(char *s)
 	{
 		b += 1;
 	}
-	printf("%d \n", b);
 	for (j = b  ; j >= 0 ; j--)
 	{
 		if  (s[j] != '\0')
