@@ -26,5 +26,7 @@ int add(int num1, int num2);
 void print_to_98();
 
 /*0x05-pointers_arrays_strings*/
+void swap_int(int *a, int *b);
 void reset_to_98(int *n);
+int _strlen(char *s);
 #endif /* MAIN_H */
