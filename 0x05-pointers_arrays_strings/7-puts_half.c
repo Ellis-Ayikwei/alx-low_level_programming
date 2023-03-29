@@ -13,7 +13,9 @@ void puts_half(char *str)
 	{
 		b += 1;
 	}
+
 	n = ((b -1)/2);
+
 	if (b % 2 ==1)
 	{
 		for (j = n  ; j  <= b ; j++)
@@ -27,7 +29,10 @@ void puts_half(char *str)
 	{
 		for (j = b / 2 ; j <= b ; j++)
 		{
+			if(str[j] !='\0')
+			{
 			_putchar(str[j]);
+			}
 		}
 	}
 	_putchar('\n');
