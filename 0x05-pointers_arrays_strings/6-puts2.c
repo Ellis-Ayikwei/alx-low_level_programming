@@ -17,7 +17,7 @@ void puts2(char *s)
 	}
 	for (j = 0 ; j <= b ; j +=2)
 	{ 
-		printf("%c", s[i]);
+		printf("%c", s[j]);
 	}
 	printf("\n");
 }
