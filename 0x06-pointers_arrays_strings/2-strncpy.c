@@ -1,7 +1,7 @@
 #include "main.h"
 #include <string.h>
 /**
-* _strncpy -  copies a string
+* _strncpy - copies a string.
 *@dest: the buffer to copy the srtings to
 *@src: the source to copy the string from
 *@n: the size of the cated string.
@@ -16,7 +16,7 @@ char *_strncpy(char *dest, char *src, int n)
 	{
 		dest[i] = src[i];
 	}
-	for (i = 0 ; i < n ; i++)
+	for ( i = src_len ; i < n ; i++)
 	{
 	dest[i] = '\0';
 	}
