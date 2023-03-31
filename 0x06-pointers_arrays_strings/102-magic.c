@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main"
 /**
 * main - outputs a value of an array
 * Return:  always 0
