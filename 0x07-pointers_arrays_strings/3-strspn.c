@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stddef.h>
 #include <string.h>
+#include <stdio.h>
 /**
 * _strspn- unction that gets the length of a prefix substring
 *@s: the ctring to be checked .
@@ -11,15 +12,27 @@
 unsigned int _strspn(char *s, char *accept)
 {
 	int i;
-	int acc = strlen(accept);
+	/*int acc = sizeof((char)*accept);*/
+	size_t acc = strlen(accept) + 1;
 	int o, j = 0;
+	printf("%ld \n", acc);
 
-	for (o = 0 ; o >= 0 && s[o] != '\0' ; o++)
+	for (o = 0 ; s[o] != '\0' ; o++)
 	{
-		for (i = 0 ; i <= acc  && accept[i] != '\0'; i++)
+		if (s[o] != 32)
 		{
-			if (accept[i] == s[o])
-				j += 1;
+			for (i = 0 ; accept[i] != '\0' ; i++)
+			{
+				if (s[o] == accept[i])
+				{
+					j ++;
+				}
+
+			}
+		}
+		else
+		{
+			return (j);
 		}
 	}
 	return (j);
