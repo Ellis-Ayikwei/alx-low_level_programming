@@ -3,10 +3,10 @@
 #include <string.h>
 #include <stdio.h>
 /**
-* _strspn- unction that gets the length of a prefix substring
-*@s: the ctring to be checked .
-*@accept: the bytes of te check the sstrings
-*Return: always the bytes of accpt in the prefix of s
+* _strstr- unction that gets the length of a prefix substring
+*@haystack: the string to be checked .
+*@needle: the bytes to check from the string .
+*Return: return haystring other wise NULL
 */
 char *_strstr(char *haystack, char *needle)
 {
