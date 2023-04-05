@@ -8,22 +8,27 @@
 *@accept: the bytes of te check the sstrings
 *Return: always the bytes of accpt in the prefix of s
 */
-
-char *_strpbrk(char *s, char *accept)
+char *_strstr(char *haystack, char *needle)
 {
 	int i;
-	int o, j = 0;
+	int s = 0;
 
-	for (o = 0 ; s[o] != '\0' ; o++)
+	while (needle[s] != '\0')
 	{
-		for (i = 0 ; accept[i] != '\0' ; i++)
+		s++;
+	}
+	while (*haystack)
+	{
+		for (i = 0; needle[i]; i++)
 		{
-				if (s[o] == accept[i])
-				{
-					j++;
-				}
+			if (haystack[i] != needle[i])
+				break;
 		}
-		return (j);
+		if (i != s)
+			haystack++;
+		else
+			return (haystack);
 	}
 	return (NULL);
 }
+
