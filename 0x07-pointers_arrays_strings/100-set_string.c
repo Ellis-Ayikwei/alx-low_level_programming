@@ -2,11 +2,9 @@
 #include <stdio.h>
 #include <string.h>
 /**
-* print_diagsums - prints a  the sum
-*of the diagonal in an array
-*@a: the array whos diagonal will be added
-*@size: is the size of the array
-*
+*set_string - sets the value of a pointer to char
+*@s: the array whos diagonal will be added
+*@to: the char to replace s with
 */
 void set_string(char **s, char *to)
 {
