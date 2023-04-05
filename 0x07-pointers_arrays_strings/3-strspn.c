@@ -12,8 +12,6 @@
 unsigned int _strspn(char *s, char *accept)
 {
 	int i;
-	/*int acc = sizeof((char)*accept);*/
-	size_t acc = strlen(accept) + 1;
 	int o, j = 0;
 
 	for (o = 0 ; s[o] != '\0' ; o++)
