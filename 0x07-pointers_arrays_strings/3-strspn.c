@@ -10,7 +10,7 @@
 unsigned int _strspn(char *s, char *accept)
 {
 	int i;
-	int acc = sizeof((char)*accept);
+	int acc = strlen((char)*accept);
 	int o, j = 0;
 
 	for (o = 0 ; o >= 0 && s[o] != '\0' ; o++)
