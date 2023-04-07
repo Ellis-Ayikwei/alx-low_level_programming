@@ -13,7 +13,7 @@ int rev_checker(char *str, int len, int i)
 	if (i < len && str[i] == str[len])
 		return (rev_checker(str, len - 1, i + 1));
 	if (str[i] != str[len])
-		return (0)**
+		return (0);
 * _strlen_recursion - returns the length of a string
 *@s: the string to check the length of
 *Return: an integer that displays the length of the string
