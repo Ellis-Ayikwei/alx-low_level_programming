@@ -1,6 +1,10 @@
 #include <stdio.h>
 
-
+/**
+  *main - prints the file name of when compiled.
+  *
+  *Return: success.
+  */
 
 
 
