@@ -15,7 +15,9 @@ unsigned int binary_to_uint(const char *b)
 	unsigned int bin1 = 0, bin2 = 1;
 	int len;
 
-	if (*b == '\0')
+	len = 0;
+
+	if (b == '\0')
 	{
 		return (0);
 	}
