@@ -12,31 +12,19 @@
 
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int bin1 = 0, bin2 = 1;
-	int len;
+	unsigned int result = 0;
+	int index = 0;
 
-	len = 0;
-
-	if (b == '\0')
+	while (b[index] != '\0')
 	{
-		return (0);
-	}
-
-	for (len = 0; b[len];)
-	{
-		len++;
-	}
-
-	for (len -= 1; len >= 0; len--)
-	{
-		if (b[len] != '0' && b[len] != '1')
-		{
+		if (b[index] == '1')
+		result = (result << 1) | 1;
+		else if (b[index] == '0')
+			result <<= 1;
+		else
 			return (0);
-		}
-
-		bin1 += (b[len] - '0') * bin2;
-		bin2 *= 2;
+		index++;
 	}
+	return (result);
 
-	return (bin1);
 }
