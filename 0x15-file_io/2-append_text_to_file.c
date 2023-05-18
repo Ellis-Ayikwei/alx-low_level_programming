@@ -2,7 +2,7 @@
 
 
 /**
- * create_file - Appends a file.
+ * append_text_to_file - Appends a file.
  * @filename: A pointer to the name of the file to create.
  * @text_content: A pointer to a string to write to the file.
  *
