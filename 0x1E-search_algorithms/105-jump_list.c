@@ -10,7 +10,7 @@
   */
 listint_t *jump_list(listint_t *list, size_t size, int value)
 {
-	size_t step, step_size;
+	size_t step, jump_size;
 	listint_t *current, *prev;
 
 	if (list == NULL || size == 0)
